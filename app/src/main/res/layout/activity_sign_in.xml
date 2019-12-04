@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SignIn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:background="@drawable/back3">
+
+    <ScrollView
+        android:layout_width="375dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/forgotPass_"
+                android:layout_width="174dp"
+                android:layout_height="39dp"
+                android:layout_marginStart="144dp"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="#00897B"
+                android:text="@string/forPass"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/f_pass" />
+
+            <TextView
+                android:id="@+id/f_pass"
+                android:layout_width="288dp"
+                android:layout_height="53dp"
+                android:background="#00ACC1"
+                android:backgroundTint="#C0CA33"
+                android:text="@string/forgotPass"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/passwordIn_"
+                app:layout_constraintTop_toBottomOf="@+id/signIn_"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <EditText
+                android:id="@+id/passwordIn_"
+                android:layout_width="252dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="@string/passwordIn"
+                android:inputType="textPassword"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/password_"
+                app:layout_constraintTop_toBottomOf="@+id/password_" />
+
+            <TextView
+                android:id="@+id/password_"
+                android:layout_width="80dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="36dp"
+                android:text="@string/Password"
+                android:textColor="#8E24AA"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@+id/mailIn_"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/mailIn_"
+                app:layout_constraintTop_toBottomOf="@+id/mailIn_" />
+
+            <EditText
+                android:id="@+id/mailIn_"
+                android:layout_width="239dp"
+                android:layout_height="43dp"
+                android:ems="10"
+                android:hint="@string/emailIn"
+                android:inputType="textPersonName"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="@+id/email_"
+                app:layout_constraintTop_toBottomOf="@+id/email_" />
+
+            <TextView
+                android:id="@+id/email_"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="36dp"
+                android:text="@string/email"
+                android:textColor="#8E24AA"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@+id/welcomeBack"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/welcomeBack"
+                app:layout_constraintTop_toBottomOf="@+id/welcomeBack" />
+
+            <TextView
+                android:id="@+id/welcomeBack"
+                android:layout_width="313dp"
+                android:layout_height="76dp"
+                android:layout_marginTop="16dp"
+                android:background="#C25978"
+                android:text="@string/welBack"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.144"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/signIn_"
+                android:layout_width="127dp"
+                android:layout_height="40dp"
+
+
+                android:layout_marginStart="168dp"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#00897B"
+                android:text="@string/sIn"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/passwordIn_" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+

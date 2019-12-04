@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+
+
+    tools:context=".ViewUsers">
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="238dp"
+        android:layout_height="44dp"
+        android:text="Rate this Person"
+        android:textColor="#030303"
+
+
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/RateimageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="32dp"
+
+        app:civ_border_width="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/RatenameHead"
+        android:layout_width="65dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="8dp"
+        android:text="Name:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RateimageView"
+        android:background="@color/color6"
+        />
+
+    <TextView
+        android:id="@+id/RatenameView"
+        android:layout_width="111dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="12dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toEndOf="@+id/RatenameHead"
+        app:layout_constraintTop_toBottomOf="@+id/RateimageView" />
+
+    <TextView
+        android:id="@+id/RateNumHead"
+        android:layout_width="61dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="16dp"
+        android:text="Phone:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RatenameHead"
+        android:background="@color/color3"
+        />
+
+    <TextView
+        android:id="@+id/RatePhnView"
+        android:layout_width="107dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintStart_toEndOf="@+id/RateNumHead"
+        app:layout_constraintTop_toBottomOf="@+id/RatenameView" />
+
+
+
+    <TextView
+        android:layout_width="119dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="40dp"
+        android:text="OverAll Percentage:"
+        android:textColor="#030303"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RateNumHead"
+        android:background="@color/color2"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="206dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="52dp"
+        android:text="80%"
+        android:textColor="#030303"
+        android:textSize="70sp"
+        app:fontFamily="sans-serif-condensed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RatePhnView" />
+
+    <RatingBar
+        android:id="@+id/ratingBar_honesty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        />
+
+    <TextView
+        android:id="@+id/honesty_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="28dp"
+        android:background="@color/color6"
+
+        android:text="Honest:"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/ratingBar_honesty"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <RatingBar
+        android:id="@+id/ratingBar_freindly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar_honesty" />
+    <TextView
+        android:id="@+id/friendly_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Friendly:"
+        android:textSize="25sp"
+        android:background="@color/color2"
+
+        app:layout_constraintEnd_toStartOf="@+id/ratingBar_freindly"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar_honesty" />
+
+    <RatingBar
+        android:id="@+id/ratingBar_Kindness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar_freindly" />
+
+    <TextView
+        android:id="@+id/kindness_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
+        android:text="Kindness:"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/ratingBar_Kindness"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar_freindly"
+        android:background="@color/color1"
+        />
+
+    <RatingBar
+        android:id="@+id/ratingBar_helpful"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar_Kindness" />
+
+    <TextView
+        android:id="@+id/helpful_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Helpful:"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/ratingBar_helpful"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar_Kindness"
+        android:background="@color/color3"
+        />
+
+    <Button
+        android:id="@+id/btn_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Rate Done"
+        android:layout_marginEnd="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar_helpful"
+        android:backgroundTint="@color/color5"
+        android:foregroundTint="#5E35B1"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

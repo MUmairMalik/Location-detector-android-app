@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Compiled</string>
+
+    <string name="missingField">Enter the missing Fields</string>
+
+    <string name="passNotEqual">Confirm Password again. The two passwords do not match</string>
+    <string name="usernameIn">Enter username</string>
+    <string name="passIn">Enter Password</string>
+    <string name="fullNameIn">Enter user name</string>
+    <string name="fullName">Full Name:</string>
+    <string name="email">Email:</string>
+    <string name="emailIn">Enter your email.</string>
+    <string name="Password">Password:</string>
+    <string name="passwordIn">Enter your Password</string>
+    <string name="conPass">Confirm Password:</string>
+    <string name="conPassIn">Enter your password again.</string>
+    <string name="check">I agree to the terms and conditions.</string>
+    <string name="sUp">Sign Up</string>
+    <string name="sIn">Let\'s Go!</string>
+    <string name="haveAcc">Already have an account?</string>
+    <string name="forgotPass">Forgot Password? Do not worry,we have it covered.</string>
+    <string name="forPass">Forgot Password</string>
+    <string name="forgotPassDetails">Do not worry! Enter your email below and a code will be sent to you.</string>
+    <string name="reset">Reset Password</string>
+    <string name="view">View</string>
+    <string name="hide">Hide</string>
+    <string name="explore">Explore Memories</string>
+    <string name="addPic">Upload your picture!</string>
+    <string name="other">Other</string>
+    <string name="Pic">It is necessary to upload your own picture!</string>
+    <string name="Intro">Ready to Interact and Rate?</string>
+    <string name="home">Home</string>
+    <string name="codeIn">Enter code</string>
+    <string name="search">Search</string>
+    <string name="profile">Profile</string>
+    <string name="sendCode">Send Code</string>
+    <string name="sendCodeA">Send Code Again</string>
+    <string name="resetPass">Enter the code below sent to your email</string>
+    <string name="resetPassInf">Upon confirmation, your new password will be sent to your email.</string>
+    <string name="goToLogin">Go to Login</string>
+    <string name="welBack">Your Friends are waiting to be rated!</string>
+
+    <string name="passReset">Your password has been reset to 12345.</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <string name="textSearch">Search People</string>
+    <string name="hintSearch">Enter the term to search</string>
+
+    <string name="term1">Rubab Tariq</string>
+    <string name="term2">Muntaha Khan</string>
+    <string name="term3">Hira Shahid</string>
+    <string name="term4">Iffat Alvi</string>
+    <string name="term5">Dua Sajid</string>
+    <string name="term6">Sam Smith</string>
+    <string name="term7">Sheldon Cooper</string>
+    <string name="tab_text_1">Home</string>
+    <string name="tab_text_2">Search</string>
+    <string name="tab_text_3">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name_">Rubab Tariq</string>
+    <string name="EMAIL">rubabzahrat@gmail.com</string>
+    <string name="Phone">03214227841</string>
+    <string name="Location">Lahore,Pakistan</string>
+    <string name="passDis">******</string>
+
+    <string name="gender">Gender:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="logout">Log Out</string>
+    <string name="relativeLayout">Relative Layout</string>
+    <string name="title_activity_view_users">ViewUsers</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="othersmail">DuaaSajid123@hotmail.com</string>
+    <string name="name_profile">Muntaha Khan</string>
+    <string name="nameprofile">Duaa Sajid</string>
+    <string name="address">muntaha122@hotmail.com</string>
+    <string name="honesty">Honesty</string>
+    <string name="kindness">Kindness</string>
+    <string name="helpfull">Helpfull</string>
+    <string name="social">Social</string>
+    <string name="perc">67%</string>
+    <string name="overall">OverAll Ratings:</string>
+
+</resources>

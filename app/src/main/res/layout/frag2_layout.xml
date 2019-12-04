@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/back3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/prof1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/burak"
+                app:civ_border_width="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                />
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/cam1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="-55dp"
+                android:src="@drawable/cam_icon"
+                app:civ_border_color="#cc3737"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+
+                />
+
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="130dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="50dp"
+                android:text="@string/name_profile"
+                android:textColor="#0F0E0E"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="14dp"
+                android:text="@string/address"
+                android:textColor="#030303"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+
+            <TextView
+                android:id="@+id/Thonesty"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/honesty"
+                android:textColor="#030303"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+
+
+            <RatingBar
+                android:id="@+id/honesty"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="0dp"
+                android:rating="2"
+                android:stepSize="0.5" />
+
+            <TextView
+                android:id="@+id/Tkindness"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/kindness"
+                android:textColor="#030303"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <RatingBar
+                android:id="@+id/social"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="20dp"
+                android:rating="3.5"
+                android:stepSize=".5" />
+
+
+            <TextView
+                android:id="@+id/Tsocial"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/social"
+                android:textColor="#030303"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <RatingBar
+                android:id="@+id/kindness"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="20dp"
+                android:rating="0.5"
+                android:stepSize="1" />
+
+            <TextView
+                android:id="@+id/Thelpfull"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/helpfull"
+                android:textColor="#030303"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <RatingBar
+                android:id="@+id/helpfull"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="20dp"
+                android:rating="2.5"
+                android:stepSize="0.5"
+
+                />
+
+            <TextView
+                android:id="@+id/Tbar"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/overall"
+                android:textColor="#030303"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/rating"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/perc"
+                android:textColor="#030303"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                />
+        </LinearLayout>
+        >
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
